@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/ChartWithPivotGrid/Form1.cs) (VB: [Form1.vb](./VB/ChartWithPivotGrid/Form1.vb))
+<!-- default file list end -->
 # How to use a chart control with a pivot grid, containing data of different types
 
 

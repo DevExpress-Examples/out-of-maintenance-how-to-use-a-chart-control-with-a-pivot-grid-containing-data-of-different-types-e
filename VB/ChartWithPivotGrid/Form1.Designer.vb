@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace ChartWithPivotGrid
+﻿Namespace ChartWithPivotGrid
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -77,8 +75,10 @@ Namespace ChartWithPivotGrid
 			Me.pivotGridControl1.Name = "pivotGridControl1"
 			Me.pivotGridControl1.Size = New System.Drawing.Size(850, 264)
 			Me.pivotGridControl1.TabIndex = 0
-'			Me.pivotGridControl1.FieldAreaChanged += New DevExpress.XtraPivotGrid.PivotFieldEventHandler(Me.pivotGridControl1_FieldAreaChanged);
-'			Me.pivotGridControl1.FieldAreaChanging += New DevExpress.XtraPivotGrid.PivotAreaChangingEventHandler(Me.pivotGridControl1_FieldAreaChanging);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.pivotGridControl1.FieldAreaChanged += new DevExpress.XtraPivotGrid.PivotFieldEventHandler(this.pivotGridControl1_FieldAreaChanged);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.pivotGridControl1.FieldAreaChanging += new DevExpress.XtraPivotGrid.PivotAreaChangingEventHandler(this.pivotGridControl1_FieldAreaChanging);
 			' 
 			' salesPersonBindingSource
 			' 
@@ -147,7 +147,6 @@ Namespace ChartWithPivotGrid
 			Me.chartControl1.Location = New System.Drawing.Point(0, 0)
 			Me.chartControl1.Name = "chartControl1"
 			Me.chartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series(){}
-			sideBySideBarSeriesLabel1.LineVisible = True
 			Me.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1
 			Me.chartControl1.Size = New System.Drawing.Size(850, 276)
 			Me.chartControl1.TabIndex = 0
@@ -164,7 +163,8 @@ Namespace ChartWithPivotGrid
 			Me.Controls.Add(Me.splitContainer1)
 			Me.Name = "Form1"
 			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
 			Me.splitContainer1.Panel1.ResumeLayout(False)
 			Me.splitContainer1.Panel2.ResumeLayout(False)
 			Me.splitContainer1.ResumeLayout(False)
